@@ -8,21 +8,7 @@ Database contains 18 classification problems. Each of independent label variable
 - The best binarization of classes for each attribute.
 - Evaluation of risk to be drug consumer for each drug.
 
-#### References
-1. Drug, Wikipedia
-URL: https://en.wikipedia.org/wiki/Drug
-2. The Five Factor Model of personality Model of Personality and Evaluation of Drug
-Consumption risk, E.Fehrman, A.K. Muhammad, E.M. Mirkes, V. Egan, A.N Gorban.
-URL: https://arxiv.org/abs/1506.06297
-3. Detecting and Assessing Alcohol and Other Drug Use.
-URL: https://www.ncbi.nlm.nih.gov/books/NBK236259/
-4. Ibid.
-5. UCI-Machine Learning Repository
-URL: archive.ics.uci.edu/ml/datasets/Drug+consumption+%28quantified%29
-6. Numpy Documentation
-7. Matplotlib Documentation
-8. Seaborn Documentation
-9. Pandas Documentation.
+
 
 ### Data Set Information:
 
@@ -37,6 +23,8 @@ Database contains 18 classification problems. Each of independent label variable
     <right>
     
 > 1. **ID:** ID is number of record in original database. Cannot be related to participant. It can be used for reference only.
+
+
 > 2. **Age:** Age is the age of participant and has one of the values: 
 
 |   Value  |    Meaning   |  Cases  |  Fraction  |
@@ -48,12 +36,14 @@ Database contains 18 classification problems. Each of independent label variable
 |  1.82213 |    55 - 64   |   93    |    4.93%   |
 |  2.59171 |    65+       |   18    |    0.95%   |
 
+
 > 3.**Gender:** Gender is gender of participant:
 
 |   Value  |    Meaning   |  Cases  |  Fraction  |
 |----------|--------------|---------|------------|
 |  0.48246 |    Female    |   942   |   49.97%   |
 | -0.48246 |    Male      |   943   |   50.03%   |
+
 
 > 4. **Education:**  Education is level of education of participant and has one of the values: 
 
@@ -69,6 +59,8 @@ Database contains 18 classification problems. Each of independent label variable
 |  1.16365 |              Masters Degree           |   283   |   15.01%   |
 |  1.98437 |             Doctorate Degree          |   89    |    4.72%   |
 
+
+
 > 5. **Country:** Country is country of current residence of participant and has one of the values:
 
 |   Value  |         Meaning         |  Cases  |  Fraction  |
@@ -81,6 +73,8 @@ Database contains 18 classification problems. Each of independent label variable
 |  0.96082 |            UK           |  1044   |   55.38%   | 
 | -0.57009 |           USA           |   557   |   29.55%   |
 
+
+
 > 6.**Ethnicity:** Ethnicity is ethnicity of participant and has one of the values: 
 
 |   Value  |         Meaning         |  Cases  |  Fraction  |
@@ -92,6 +86,8 @@ Database contains 18 classification problems. Each of independent label variable
 | -0.22166 |    Mixed-White/Black    |    20   |   1.06%    |
 |  0.11440 |         Other           |    63   |   3.34%    |
 | -0.31685 |         White           |  1720   |  91.25%    |
+
+
 
 > 7. **Nscore:** Nscore is NEO-FFI-R Neuroticism. Neuroticism is one of the Big Five higher-order personality traits in the study of psychology. Individuals who score high on neuroticism are more likely than average to be moody and to experience such feelings as anxiety, worry, fear, anger, frustration, envy, jealousy, guilt, depressed mood, and loneliness. Possible values are presented in table below:   
 
@@ -111,6 +107,8 @@ Database contains 18 classification problems. Each of independent label variable
 |  23  |-1.43907|  35   |-0.05188|  47   |1.13281 |  59   |2.82196 |
 |   -  |    -   |   -   |    -   |   -   |    -   |  60   |3.27393 |
 
+
+
 > 8. **EScore:** Escore (Real) is NEO-FFI-R Extraversion. Extraversion is one of the five personality traits of the Big Five personality theory. It indicates how outgoing and social a person is. A person who scores high in extraversion on a personality test is the life of the party. They enjoy being with people, participating in social gatherings, and are full of energy. Possible values are presented in table below: 
 
 |Escore|  Value | Escore|  Value | Escore|  Value | Escore|  Value | 
@@ -126,6 +124,8 @@ Database contains 18 classification problems. Each of independent label variable
 |  24  |-2.11437|   35  |-0.69509|   46  | 0.96248|   57  | 2.85950| 
 |  25  |-2.03972|   36  |-0.57545|   47  | 1.11406|   58  | 3.00537| 
 |  26  |-1.92173|   37  |-0.43999|   48  | 1.28610|   59  | 3.27393|
+
+
 
 
 > 9. **Oscore:** Oscore (Real) is NEO-FFI-R Openness to experience. Openness is one of the five personality traits of the Big Five personality theory. It indicates how open-minded a person is. A person with a high level of openness to experience in a personality test enjoys trying new things. They are imaginative, curious, and open-minded. Individuals who are low in openness to experience would rather not try new things. They are close-minded, literal and enjoy having a routine. Possible values are presented in table below:
@@ -144,6 +144,8 @@ Database contains 18 classification problems. Each of independent label variable
 |  35  |-1.55521|   47  | 0.14143|   59  | 2.44904| 
 |  36  |-1.42424|   48  | 0.29338|   60  | 2.90161| 
 |  37  |-1.27553|   49  | 0.44585|  NaN  |  NaN   | 
+
+
 
 > 10. **Ascore:**  Ascore(Real) is NEO-FFI-R Agreeableness. Agreeableness is one of the five personality traits of the Big Five personality theory. A person with a high level of agreeableness in a personality test is usually warm, friendly, and tactful. They generally have an optimistic view of human nature and get along well with others. Possible values are presented in table below: 
 
@@ -164,6 +166,8 @@ Database contains 18 classification problems. Each of independent label variable
 |  32  |-1.62090|   46  | 0.43852|   60  | 3.46436| 
 |  33  |-1.47955|   47  | 0.59042|  NaN  |  NaN   |
 
+
+
 > 11. **Cscore:** Cscore (Real) is NEO-FFI-R Conscientiousness. Conscientiousness is one of the five personality traits of the Big Five personality theory. A person scoring high in conscientiousness usually has a high level of self-discipline. These individuals prefer to follow a plan, rather than act spontaneously. Their methodic planning and perseverance usually makes them highly successful in their chosen occupation. Possible values are presented in table below: 
 
 |Cscore|  Value | Cscore|  Value | Cscore|  Value | 
@@ -183,6 +187,8 @@ Database contains 18 classification problems. Each of independent label variable
 |  30  |-1.51840|   44  | 0.25953|   59  | 3.46436| 
 |  31  |-1.38502|   45  | 0.41594|  NaN  |  NaN   |
 
+
+
 > 12. **Impulsive:** Impulsive (Real) is impulsiveness measured by BIS-11. In psychology, impulsivity (or impulsiveness) is a tendency to act on a whim, displaying behavior characterized by little or no forethought, reflection, or consideration of the consequences. If you describe someone as impulsive, you mean that they do things suddenly without thinking about them carefully first. Possible values are presented in table below: 
 
 |Impulsiveness| Cases |  Fraction  | 
@@ -197,6 +203,8 @@ Database contains 18 classification problems. Each of independent label variable
 |    1.29221  |  148  |    7.85%   | 
 |    1.86203  |  104  |    5.52%   | 
 |    2.90161  |    7  |    0.37%   | 
+
+
 
 > 13. **Sensation:** SS(Real) is sensation seeing measured by ImpSS. Sensation is input about the physical world obtained by our sensory receptors, and perception is the process by which the brain selects, organizes, and interprets these sensations. In other words, senses are the physiological basis of perception. Possible values are presented in table below: 
 
@@ -216,6 +224,7 @@ Database contains 18 classification problems. Each of independent label variable
 
 
 
+
 > The remaining columns are divided inti 7 classes:
 
 |  Value  |    Description   |
@@ -228,6 +237,22 @@ Database contains 18 classification problems. Each of independent label variable
 |   CL5   |     Used in Last Week   | 
 |   CL6   |     Used in Last Day    |
 
+
+#### References
+1. Drug, Wikipedia
+URL: https://en.wikipedia.org/wiki/Drug
+2. The Five Factor Model of personality Model of Personality and Evaluation of Drug
+Consumption risk, E.Fehrman, A.K. Muhammad, E.M. Mirkes, V. Egan, A.N Gorban.
+URL: https://arxiv.org/abs/1506.06297
+3. Detecting and Assessing Alcohol and Other Drug Use.
+URL: https://www.ncbi.nlm.nih.gov/books/NBK236259/
+4. Ibid.
+5. UCI-Machine Learning Repository
+URL: archive.ics.uci.edu/ml/datasets/Drug+consumption+%28quantified%29
+6. Numpy Documentation
+7. Matplotlib Documentation
+8. Seaborn Documentation
+9. Pandas Documentation.
 
 
 
