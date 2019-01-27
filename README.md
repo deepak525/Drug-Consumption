@@ -7,3 +7,19 @@ Database contains 18 classification problems. Each of independent label variable
 - Problem can be transformed to binary classification by union of part of classes into one new class. For example, "Never Used", "Used over a Decade Ago" form class "Non-user" and all other classes form class "User".
 - The best binarization of classes for each attribute.
 - Evaluation of risk to be drug consumer for each drug.
+
+References
+1. Drug, Wikipedia
+URL: https://en.wikipedia.org/wiki/Drug
+2. The Five Factor Model of personality Model of Personality and Evaluation of Drug
+Consumption risk, E.Fehrman, A.K. Muhammad, E.M. Mirkes, V. Egan, A.N Gorban.
+URL: https://arxiv.org/abs/1506.06297
+3. Detecting and Assessing Alcohol and Other Drug Use.
+URL: https://www.ncbi.nlm.nih.gov/books/NBK236259/
+4. Ibid.
+5. UCI-Machine Learning Repository
+URL: archive.ics.uci.edu/ml/datasets/Drug+consumption+%28quantified%29
+6. Numpy Documentation
+7. Matplotlib Documentation
+8. Seaborn Documentation
+9. Pandas Documentation.
